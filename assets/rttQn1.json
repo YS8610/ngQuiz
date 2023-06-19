@@ -1,0 +1,602 @@
+[
+  {
+    "id" : 0,
+    "qn" : "Engine is normally cooled by",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "water", "isAns":false},
+      {"content": "air", "isAns":false},
+      {"content": "oil", "isAns":false},
+      {"content": "air, water, oil", "isAns":true}
+    ]
+  },
+  {
+    "id" : 1,
+    "qn" : "When there is a driver that causes inconvenience to you, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "horn the driver", "isAns":false},
+      {"content": "High beam the driver", "isAns":false},
+      {"content": "horn and high beam the driver", "isAns":false},
+      {"content": "keep calm", "isAns":true}
+    ]
+  },
+  {
+    "id" : 2,
+    "qn" : "The causes of an over heated engine are likely to be",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "Long distance travel on high speed", "isAns":false},
+      {"content": "lack/poor of maintainence", "isAns":true},
+      {"content": "Short distance travel on high speed", "isAns":false},
+      {"content": "Long distance travel on low speed", "isAns":false}
+    ]
+  },
+  {
+    "id" : 3,
+    "qn" : "Centrifugal force will affect",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "motorcycle", "isAns":false},
+      {"content": "car", "isAns":false},
+      {"content": "truck and lorry", "isAns":false},
+      {"content": "all vehicles", "isAns":true}
+    ]
+  },
+  {
+    "id" : 4,
+    "qn" : "What does flashing amber light signal?",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "going to turn amber", "isAns":false},
+      {"content": "proceed as normal", "isAns":false},
+      {"content": "danger ahead", "isAns":false},
+      {"content": "Traffic light is not working", "isAns":true}
+    ]
+  },
+  {
+    "id" : 5,
+    "qn" : "When driving in a heavy rain during daytime, switching on headlights",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "is not recommended as it waste your vehicle fuel", "isAns":false},
+      {"content": "is recommended as it increases your visibility of the road ahead", "isAns":false},
+      {"content": "is not recommended as it is still not at night", "isAns":false},
+      {"content": "is recommended so that you are more visible by other road user", "isAns":true}
+    ]
+  },
+  {
+    "id" : 6,
+    "qn" : "When should the right outer most lane in carriageway be used?",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "when you want to travel at faster speed", "isAns":false},
+      {"content": "when you want to travel at slower speed", "isAns":false},
+      {"content": "All the time", "isAns":false},
+      {"content": "when you want to overtake other vehicle", "isAns":true}
+    ]
+  },
+  {
+    "id" : 7,
+    "qn" : "When overtaking a long and large lorry,",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "overtake from the left", "isAns":false},
+      {"content": "horn to signal to the lorry that you are overtaking", "isAns":false},
+      {"content": "keep a shorter following distance", "isAns":false},
+      {"content": "you should stay well back in order to get a better view", "isAns":true}
+    ]
+  },
+  {
+    "id" : 8,
+    "qn" : "When you are turning left into a side road, you noticed that someone has started crossing the road, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "high beam the pedestrian to alert them", "isAns":false},
+      {"content": "horn the pedestrian to alert them", "isAns":false},
+      {"content": "proceed as normal as you have the right of way", "isAns":false},
+      {"content": "give way so that the pedestrian can cross safely", "isAns":true}
+    ]
+  },
+  {
+    "id" : 9,
+    "qn" : "The traffic light change from green to amber when you are approaching the junction",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "you should jam brake", "isAns":false},
+      {"content": "accelerate more to beat the amber light", "isAns":false},
+      {"content": "horn to alert other that you are braking", "isAns":false},
+      {"content": "stop before the line unless sudden braking might cause accident", "isAns":true}
+    ]
+  },
+  {
+    "id" : 10,
+    "qn" : "A children will become an actual road hazard when",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "the children is walking by the side of the road", "isAns":false},
+      {"content": "the children is running on the pavement", "isAns":false},
+      {"content": "the children is walking on the pavement", "isAns":false},
+      {"content": "the children playing with the ball suddenly kick it into the road", "isAns":true}
+    ]
+  },
+  {
+    "id" : 11,
+    "qn" : "you can avoid the glare from the headlights of incoming vehicles by",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "looking straight", "isAns":false},
+      {"content": "looking at the rearview mirror", "isAns":false},
+      {"content": "closing your eye", "isAns":false},
+      {"content": "shifting your eye slightly to the left", "isAns":true}
+    ]
+  },
+  {
+    "id" : 12,
+    "qn" : "On a wet and rainy day, lesser tread on tires will ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "skid", "isAns":false},
+      {"content": "have no effect", "isAns":false},
+      {"content": "decrease your braking distance", "isAns":false},
+      {"content": "increase your braking distance", "isAns":true}
+    ]
+  },
+  {
+    "id" : 13,
+    "qn" : "When a motorcyclist is trying to overtaking you from the left",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "you should speed up to prevent being overtaken", "isAns":false},
+      {"content": "you should ignore as you have the right of way", "isAns":false},
+      {"content": "you should horn him", "isAns":false},
+      {"content": "you should reduce speed so that the rider can overtake safely", "isAns":true}
+    ]
+  },
+  {
+    "id" : 14,
+    "qn" : "When you are riding down a slope, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "clutch in and free wheel", "isAns":false},
+      {"content": "increase your gear", "isAns":false},
+      {"content": "change to neutral", "isAns":false},
+      {"content": "lower your gear", "isAns":true}
+    ]
+  },
+  {
+    "id" : 15,
+    "qn" : "At a sharp bend, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "increase speed to prepare for cornering", "isAns":false},
+      {"content": "decrease speed", "isAns":false},
+      {"content": "jam brake", "isAns":false},
+      {"content": "not try to overtake other vehicles", "isAns":true}
+    ]
+  },
+  {
+    "id" : 16,
+    "qn" : "When you are trying to stop, lesser braking effort is required when stopping using gear",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "5", "isAns":false},
+      {"content": "3", "isAns":false},
+      {"content": "4", "isAns":false},
+      {"content": "2", "isAns":true}
+    ]
+  },
+  {
+    "id" : 17,
+    "qn" : "To maintain good lane discipline, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "ride between 2 lanes", "isAns":false},
+      {"content": "change to the intended lane suddenly", "isAns":false},
+      {"content": "just squeeze all the way to the front", "isAns":false},
+      {"content": "form up correctly into the intended lane before reaching the junction", "isAns":true}
+    ]
+  },
+  {
+    "id" : 18,
+    "qn" : "Even though your blood alcohol is below legal limit, if you failed to maintain proper control of your vehicle,",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "you will be let off with a warning", "isAns":false},
+      {"content": "you can proceed as per normal", "isAns":false},
+      {"content": "there will be no charge", "isAns":false},
+      {"content": "you can be charged drink driving", "isAns":true}
+    ]
+  },
+  {
+    "id" : 19,
+    "qn" : "How will your driving be affected with the consumption of alcohol",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "Reaction time decreases", "isAns":false},
+      {"content": "no effect", "isAns":false},
+      {"content": "Reaction becomes faster", "isAns":false},
+      {"content": "Reaction become slower", "isAns":true}
+    ]
+  },
+  {
+    "id" : 20,
+    "qn" : "What are the normal bus lane timing on weekday?",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "all day", "isAns":false},
+      {"content": "5pm to 8pm", "isAns":false},
+      {"content": "7.30am to 9.30am", "isAns":false},
+      {"content": "7.30am to 9.30am and 5pm to 8pm", "isAns":true}
+    ]
+  },
+  {
+    "id" : 21,
+    "qn" : "What are the full-Day bus lane timing?",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "all day", "isAns":false},
+      {"content": "7.30am to 9.30am and 5pm to 8pm", "isAns":false},
+      {"content": "7.30am to 11pm weekday", "isAns":false},
+      {"content": "7.30am to 11pm except sunday and holiday", "isAns":true}
+    ]
+  },
+  {
+    "id" : 22,
+    "qn" : "When should you use the horn?",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "to disturb other road user", "isAns":false},
+      {"content": "to signal that you have the right of way", "isAns":false},
+      {"content": "to show your unhappiness", "isAns":false},
+      {"content": "to warns other road user of dangers", "isAns":true}
+    ]
+  },
+  {
+    "id" : 23,
+    "qn" : "when you are approaching a built up area, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "stop", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "speed up", "isAns":false},
+      {"content": "reduce speed", "isAns":true}
+    ]
+  },
+  {
+    "id" : 24,
+    "qn" : "When you see a sign indicting that road repair is ongoing, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "stop", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "speed up", "isAns":false},
+      {"content": "reduce speed and watch out for traffic controller and their instruction", "isAns":true}
+    ]
+  },
+  {
+    "id" : 25,
+    "qn" : "During the 12months probation period, a newly qualified rider license will be revoked if there is an accumulation of ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "10 demerit points", "isAns":false},
+      {"content": "11 demerit points", "isAns":false},
+      {"content": "12 demerit points", "isAns":false},
+      {"content": "13 demerit points", "isAns":true}
+    ]
+  },
+  {
+    "id" : 26,
+    "qn" : "A newly qualified rider who is still in 12 months probation period will have license revoked if there is an accumulation of ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "10 demerit points", "isAns":false},
+      {"content": "12 demerit points", "isAns":false},
+      {"content": "more than 11 demerit points", "isAns":false},
+      {"content": "more than 12 demerit points", "isAns":true}
+    ]
+  },
+  {
+    "id" : 27,
+    "qn" : "You can only apply for PDL or book traffic police practical test if you have less than",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "10 demerit points", "isAns":false},
+      {"content": "11 demerit points", "isAns":false},
+      {"content": "12 demerit points", "isAns":false},
+      {"content": "13 demerit points", "isAns":true}
+    ]
+  },
+  {
+    "id" : 28,
+    "qn" : "Certain medication prescribed by doctor may cause",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "increased concentration", "isAns":false},
+      {"content": "no effect", "isAns":false},
+      {"content": "alertness", "isAns":false},
+      {"content": "drowsiness", "isAns":true}
+    ]
+  },
+  {
+    "id" : 29,
+    "qn" : "Before you start the engine of your motorcycle, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "make sure that the gear is in 3rd gear", "isAns":false},
+      {"content": "make sure that the gear is in 2nd gear", "isAns":false},
+      {"content": "make sure that the gear is in 1st gear", "isAns":false},
+      {"content": "make sure that the gear is in neutral", "isAns":true}
+    ]
+  },
+  {
+    "id" : 30,
+    "qn" : "How will you react to P Plate rider who appear inexperienced?",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "high beam them", "isAns":false},
+      {"content": "horn them for being slow", "isAns":false},
+      {"content": "Speed up and overtake them", "isAns":false},
+      {"content": "Be more patient and be prepared for them to react more slowly", "isAns":true}
+    ]
+  },
+  {
+    "id" : 31,
+    "qn" : "The 2 wheels of motorcycle need to be kept in line when ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "turning", "isAns":false},
+      {"content": "banking", "isAns":false},
+      {"content": "cornering", "isAns":false},
+      {"content": "crossing obstacles", "isAns":true}
+    ]
+  },
+  {
+    "id" : 32,
+    "qn" : "The amber light on traffic light is flashing continuously, you should ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "proceed as per normal", "isAns":false},
+      {"content": "increase speed", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "Reduce speed and proceed cautiously", "isAns":true}
+    ]
+  },
+  {
+    "id" : 33,
+    "qn" : "When you are approaching a zebra crossing, Pedestrians are waiting to cross",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "speed up so that you do not have to wait", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "horn to alert pedestrians", "isAns":false},
+      {"content": "Be prepared to stop", "isAns":true}
+    ]
+  },
+  {
+    "id" : 34,
+    "qn" : "When approaching traffic light that has turned amber, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "jam brake", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "speed up to beat the amber light", "isAns":false},
+      {"content": "slow down and stop", "isAns":true}
+    ]
+  },
+  {
+    "id" : 35,
+    "qn" : "When you are blinded by headlights of oncoming vehicle at night, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "jam brake", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "increase speed", "isAns":false},
+      {"content": "slow down or stop", "isAns":true}
+    ]
+  },
+  {
+    "id" : 36,
+    "qn" : "to be able to stop in any emergency situation without losing control, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "switch on car headlights", "isAns":false},
+      {"content": "drive at low speed", "isAns":false},
+      {"content": "drive at high speed", "isAns":false},
+      {"content": "constantly adjust speed to the condition of the road", "isAns":true}
+    ]
+  },
+  {
+    "id" : 37,
+    "qn" : "The stopping distance of a vehicles comprises of ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "reaction distance", "isAns":false},
+      {"content": "braking distance", "isAns":false},
+      {"content": "thinking distance", "isAns":false},
+      {"content": "reaction and braking distance", "isAns":true}
+    ]
+  },
+  {
+    "id" : 38,
+    "qn" : "Why is it wrong to free wheeling",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "more control on vehicle", "isAns":false},
+      {"content": "less control on vehicle", "isAns":false},
+      {"content": "Speed is faster", "isAns":false},
+      {"content": "Because there is no engine brake", "isAns":true}
+    ]
+  },
+  {
+    "id" : 39,
+    "qn" : "Tires should be replace when treads is less than ",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "1.4mm", "isAns":false},
+      {"content": "1.8mm", "isAns":false},
+      {"content": "2.0mm", "isAns":false},
+      {"content": "1.6mm", "isAns":true}
+    ]
+  },
+  {
+    "id" : 40,
+    "qn" : "When another vehicle is trying to overtake you, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "horn and high beam to alert the vehicle", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "speed up to prevent being overtaken", "isAns":false},
+      {"content": "not speed up but try to help the vehicle to overtake safely", "isAns":true}
+    ]
+  },
+  {
+    "id" : 41,
+    "qn" : "When you are riding down a steep slope, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "brake and increase speed at the same time", "isAns":false},
+      {"content": "maintain speed", "isAns":false},
+      {"content": "increase speed", "isAns":false},
+      {"content": "Change to a lower gear so that you can control the speed better", "isAns":true}
+    ]
+  },
+  {
+    "id" : 42,
+    "qn" : "At bends where the visibility is low and you cannot see clearly ahead, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "maintain speed", "isAns":false},
+      {"content": "slow down", "isAns":false},
+      {"content": "increase speed", "isAns":false},
+      {"content": "not overtake", "isAns":true}
+    ]
+  },
+  {
+    "id" : 43,
+    "qn" : "When you are going to join the expressway, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "maintain speed", "isAns":false},
+      {"content": "slow down", "isAns":false},
+      {"content": "increase speed", "isAns":false},
+      {"content": "always give way to vehicles already on the expressway", "isAns":true}
+    ]
+  },
+  {
+    "id" : 44,
+    "qn" : "When you are entering the expressway, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "maintain your current speed", "isAns":false},
+      {"content": "speed up", "isAns":false},
+      {"content": "slow down", "isAns":false},
+      {"content": "build up speed so that you merge smoothly into the expressway traffic", "isAns":true}
+    ]
+  },
+  {
+    "id" : 45,
+    "qn" : "1 reason why you knock onto the rear end of another vehicle is",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "you maintain 2 second following distance", "isAns":false},
+      {"content": "you keep a large safety distance", "isAns":false},
+      {"content": "you did not brake in time", "isAns":false},
+      {"content": "you followed too closely behind the vehicle", "isAns":true}
+    ]
+  },
+  {
+    "id" : 46,
+    "qn" : "When you are riding in heavy rain and passing through puddle of water, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "ride as per normal", "isAns":false},
+      {"content": "speed up", "isAns":false},
+      {"content": "maintain current speed", "isAns":false},
+      {"content": "gently test your brake from time to time", "isAns":true}
+    ]
+  },
+  {
+    "id" : 47,
+    "qn" : "You hear the Emergency vehicle siren behind when riding on 1 way street, you should",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "ride as per normal", "isAns":false},
+      {"content": "speed up", "isAns":false},
+      {"content": "maintain current speed", "isAns":false},
+      {"content": "give way by moving to the right or left", "isAns":true}
+    ]
+  },
+  {
+    "id" : 48,
+    "qn" : "Upon accumulating 13 or more demerit point within a year of attaining license,",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "license will be suspensed", "isAns":false},
+      {"content": "you will be fined", "isAns":false},
+      {"content": "nothing will happen as it is less than 24 demerit points", "isAns":false},
+      {"content": "your license will be revoked", "isAns":true}
+    ]
+  },
+  {
+    "id" : 49,
+    "qn" : "the probation period for newly qualified rider is",
+    "test":"rtt",
+    "picture":"",
+    "options": [
+      {"content": "9 months", "isAns":false},
+      {"content": "6 months", "isAns":false},
+      {"content": "2 year", "isAns":false},
+      {"content": "1 year", "isAns":true}
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button [matMenuTriggerFor]="menu"> <mat-icon>menu</mat-icon> </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <a routerLink="/" >
+        <mat-icon mat-flat-button color="primary">home</mat-icon>Home
+      </a>
+    </button>
+    <button mat-menu-item>
+      <a routerLink="/" >
+        <mat-icon mat-flat-button color="primary" >quiz</mat-icon>Question Bank
+      </a>
+    </button>
+  </mat-menu>
+  <h2>Web App <mat-icon>cloud</mat-icon></h2>
+
+</mat-toolbar>

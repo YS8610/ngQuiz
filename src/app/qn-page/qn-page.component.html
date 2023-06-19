@@ -1,0 +1,84 @@
+<app-header></app-header>
+<mat-card>
+  <div class="container">
+    <div *ngIf="!notFound" fxFlex="400px">
+      <!-- Select html element for fast changing for questions -->
+      <div fxLayout="row" fxLayoutAlign="space-between center" style="margin-bottom: 10px;">
+        <button mat-button color="primary"  (click)="onHomePg()" matTooltip="Back to Question Bank">
+          <mat-icon mat-flat-button color="primary" >quiz</mat-icon>Question Bank
+        </button>
+        <select name="currentQn" #s (change)="onChange(s)">
+          <option value="{{i}}" *ngFor="let qn of qnlist let i = index" [selected]="qnNo == i" [ngClass]="{'wrongAns':isSubmitted && wrongQnNo.includes(i)}">Qn {{i+1}}</option>
+        </select>
+      </div>
+      <!-- Start of Quiz -->
+      <form fxLayout="column" #quiz="ngForm">
+        <label [for]="'qnNo '+qnNo">Qn {{qnNo+1}}. {{(qnlist[qnNo]).qn}}</label>
+        <br>
+
+        <div *ngFor="let option of qnlist[qnNo].options let i =index" class="radiogroup">
+          <input type="radio" [id]="'qnNo'+qnNo + 'option'+i" [value]="i"  [name]="'qnNo '+qnNo" [(ngModel)]="ans" required (change)="onNext()">
+          <label [for]="'qnNo'+qnNo + 'option'+i" [ngClass]="{'selectedAns':''+i==ans}"> {{option.content}}  <ng-container *ngIf="isSubmitted"><span class="correctAns">{{option.isAns? "Correct Ans":""}}</span></ng-container></label>
+        </div>
+        <br>
+
+        <div fxLayout="row" fxLayoutAlign="space-between center" >
+          <button (click)="onBack()" [disabled]="qnNo==0" mat-button color="primary">Back</button>
+          <ng-container *ngIf="allDone && qnNo!=49 ">
+            <button (click)="onSubmit()" [disabled]="isSubmitted" mat-button color="primary">Submit</button>
+          </ng-container>
+          <ng-container *ngIf="qnNo!=qnlist.length-1">
+            <button (click)="onNext()" mat-button color="primary">Next</button>
+          </ng-container>
+          <ng-container *ngIf="qnNo==qnlist.length-1">
+            <button (click)="onSubmit()" [disabled]="!allDoneExceptLastqn || quiz.invalid || isSubmitted" mat-button color="primary">Submit</button>
+          </ng-container>
+        </div>
+
+        <!-- <ng-container *ngIf="qnNo!=qnlist.length-1">
+          <div fxLayout="row" fxLayoutAlign="end center" >
+            <button>Submit</button>
+          </div>
+        </ng-container> -->
+      </form>
+      <br>
+      <mat-divider ></mat-divider>
+      <div style="overflow-wrap: break-word; margin-top: 15px;" >
+        Completed: {{qnCompleted +"/"+ qnlist.length }}
+        <br>
+        Uncompleted Qn : {{ansObj|notdone}}
+      </div>
+      <ng-container *ngIf="isSubmitted">
+        Result: {{correctQnNo.length+"/"+ qnlist.length}}
+        <br>
+        <br>
+        <span *ngIf="wrongQnNo.length>0" style="overflow-wrap: break-word;"> Question answered wrongly: {{wrongQnNo| plus1 : 1}}</span>
+        <span *ngIf="wrongQnNo.length==0"> You have answered all questions correctly. </span>
+        <br>
+        <br>
+        pls use the drop down menu at the top right corner to find wrongly answered question. They are highlighted in red.
+      </ng-container>
+      <br>
+      <button (click)="onShowAns()" mat-button color="primary">{{showAns?"Hide All Ans":"Show All Ans"}}</button>
+      <ng-container *ngIf="showAns">
+        <table>
+          <tr>
+            <th>Qn No</th>
+            <th>Your Ans</th>
+            <th>Correct Ans</th>
+          </tr>
+          <tr *ngFor="let a of ansObj">
+            <td>{{a.qnno+1}}</td>
+            <td [ngClass]="{'wrongAns': a.ans!==a.correctans}">{{a.ans===""? "": (+a.ans+1) }}</td>
+            <td>{{a.correctans+1}}</td>
+          </tr>
+        </table>
+      </ng-container>
+
+    </div>
+
+    <ng-container *ngIf="notFound">
+      <h2>Still under construction!</h2>
+    </ng-container>
+  </div>
+</mat-card>

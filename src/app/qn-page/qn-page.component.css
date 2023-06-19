@@ -1,0 +1,15 @@
+.selectedAns{
+  background-color: yellow;
+}
+
+.correctAns{
+  background-color: greenyellow;
+}
+
+.wrongAns{
+  background-color: red;
+}
+
+.radiogroup{
+  padding: 5px 5px 5px 5px;
+}
